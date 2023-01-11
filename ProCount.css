@@ -24,8 +24,9 @@ body{
     margin-bottom:20px ;
 }
 .p{
-    width:50%;
+    width:40%;
     height: fit-content;
+    border:1px solid black;
    
 }
 .dec,.inc{
@@ -63,4 +64,31 @@ p{
     border:1px solid black;
     color:white;
     height: 10vh;
+}
+
+@media screen and (max-width:375px) {
+    .Container{
+        background-color: gray;
+    }   
+    .top{
+        flex-direction: column;
+    }
+    .dec,.inc, #buttonreset{
+        width:80%;
+        height:5vh;
+        margin:2vh;
+    }
+    .p{
+        order:-2;
+        width:80%;
+    }
+    p{
+        font-size:50vw;
+    }
+    .inc{
+        order:-1;
+    }
+    .top{
+        margin-bottom: 0px;
+    }
 }
