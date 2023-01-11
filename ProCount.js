@@ -5,7 +5,7 @@ var number= document.querySelector('#number');
 var numberf= isNaN(number) ? 0 : number;
 
 incbutton.addEventListener('click', ()=>{
-     console.log(numberf++);
+    numberf++
     number.innerText=numberf;
 })
 
