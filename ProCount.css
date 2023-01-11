@@ -1,0 +1,66 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body,p,.reset,.dec,.inc{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    flex-direction: column;
+    height:100vh;
+}
+.Container{
+    width:60%;
+    background-color: aqua;
+    border:1px solid black;
+    padding:20px;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:20px ;
+}
+.p{
+    width:50%;
+    height: fit-content;
+   
+}
+.dec,.inc{
+    border:1px solid black;
+    width:25%;
+    height:10vh;
+}
+button{
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    font-size:15px;
+    padding:5px;
+}
+.decrement,.increment{
+    color:white;
+}
+.inc{
+    background-color: green;
+}
+.dec{
+    background-color: red;   
+}
+p{
+    font-size:20vw;
+}
+.reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#buttonreset{
+    width:30%;
+    background-color:blue;
+    border:1px solid black;
+    color:white;
+    height: 10vh;
+}
